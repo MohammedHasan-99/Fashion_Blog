@@ -147,3 +147,30 @@ hr.line{
     margin: 0;
     color: #d4d4d4;
 }
+.tag{
+    padding: 0 8px;
+    margin-bottom: 16px;
+    color: #000;
+    background-color: #f1f1f1;
+    letter-spacing: normal;
+    font-family: sans-serif;
+    font-size: 12px;
+    list-style-type: none;
+    margin: 3px;
+    width: fit-content;
+}
+.active-tag{
+    color: rgb(255, 255, 255) !important;
+    background-color: #000000 !important;
+}
+
+.subscribe-btn{
+    background-color: red;
+    color: white;
+    letter-spacing: normal;
+    text-decoration: none;
+    padding: 8px 16px;
+    border: none;
+    width: 100%;
+    
+}
