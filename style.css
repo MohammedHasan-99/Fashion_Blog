@@ -1,0 +1,149 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    letter-spacing: 4px;
+    line-height: 1.5;
+}
+body{
+    background-color: #f1f1f1!important;
+
+}
+
+h1{
+    padding: 0%;
+    margin: 0%;
+    font-weight: bolder !important;
+    font-size: 48px!important;
+    /* font-family: "Oswald"; */
+    color: #000!important;
+}
+.welcome{
+    margin: 10px 0;
+    font-weight: 400 !important;
+    font-size: 16px!important;
+    color: #000!important;
+}
+.name{
+    color: white;
+    background-color: #000;
+    padding: 0 8px;
+    margin-left: 2px;
+
+}
+.img{
+    background-image: url(./assests/img/jane.jpg);
+    height: 1060px;
+    width: 100%;
+}
+.header{
+    left: 2%;
+    top: 50%;
+    transform: translate(-2%,-50%);
+}
+.l1{
+    margin: 10px 0;
+    color: #fff;
+    font-weight: 400;
+    font-size: 36px;
+   
+}
+.l2{
+    margin: 10px 0;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 64px;
+    
+}
+
+
+.l3{
+    margin: 10px 0;
+    color: rgb(0, 0, 0) !important;
+    background-color: #fff!important;
+    padding: 12px 24px!important;
+    font-size: 18px!important;
+    opacity: 0.60;
+    border: none;
+
+}
+
+@media (max-width: 768px) {
+    .l2{
+        display: none;
+    }
+}
+.post-title{
+    margin: 10px 0;
+    font-size: 24px;
+}
+.post-description{
+    margin: 10px 0;
+    font-size: 18px;
+}   
+.post-date{
+    opacity: 0.60;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+.post-para{
+   margin: 15px 0; 
+   font-family: "Open Sans";
+   font-size: 15px;
+   letter-spacing:normal;
+
+
+}
+.like{
+    color: #000;
+    text-decoration: none;
+    letter-spacing:normal;
+    border: 1px solid #ccc!important;
+    padding: 8px 16px;
+    font-weight: bolder;
+
+}
+.replies{
+    color: #fff;
+    text-decoration: none;
+    letter-spacing:normal;
+    background-color: black;
+    padding: 8px 16px;
+    font-weight: bolder;
+}
+.rep-num{
+    background-color: white;
+    color: black;
+    padding: 0 8px;
+    text-align: center;
+    margin-left: 5px;
+}
+.avatar-name{
+    color: #fff;
+    margin-bottom: 10px;
+    letter-spacing:normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+.avatar-para{
+    font-family: "Open Sans";
+    font-size: 15px;
+    letter-spacing:normal;
+    margin: 15px 0 0 0;
+
+
+}
+.avatar-data{
+    color: #fff;
+    background-color: #000;
+    padding: 16px 16px !important;
+}
+.avatar{
+    width: 50px;
+    height: 50px;
+}
+
+hr.line{
+    margin: 0;
+    color: #d4d4d4;
+}
